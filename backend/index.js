@@ -9,8 +9,7 @@ const cookieParser = require('cookie-parser')
 const app = express()
 
 app.use(cors({
-    origin: "http://localhost:5173",
-    "https://sopixa-mern-ecommerce.onrender.com"
+    origin:  "https://sopixa-mern-ecommerce.onrender.com",
     credentials: true
 }));
 // app.use(express.json()); 
