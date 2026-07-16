@@ -1,0 +1,25 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/***user table***/
+.userTable{
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.userTable th{
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.userTable td{
+    border: 1px solid #d1d5db;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
