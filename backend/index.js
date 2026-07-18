@@ -25,7 +25,7 @@ app.use(express.urlencoded({
     limit: "10mb"
 }));
 app.use('/api',router)
-const PORT = 8080 || process.env.PORT 
+const PORT = process.env.PORT || 8080
 connectDB().then(()=>{
    app.listen(PORT, () =>{
     console.log("connected db")
